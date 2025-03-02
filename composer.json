@@ -1,43 +1,48 @@
 {
-    "name": "icetalker/filament-table-repeatable-entry",
+    "name": "filamerce/filament-table-repeatable-entry",
     "description": "Display Filament RepeatableEntry as table",
     "keywords": [
-        "icetalker",
+        "filamentphp",
         "laravel",
         "filament-table-repeatable-entry"
     ],
-    "homepage": "https://github.com/icetalker/filament-table-repeatable-entry",
+    "homepage": "https://github.com/filamerce/filament-table-repeatable-entry",
     "license": "MIT",
     "authors": [
         {
             "name": "Martin Hwang",
             "email": "termlong.com@gmail.com",
             "role": "Developer"
+        },
+        {
+            "name": "Bartlomiej Gajda",
+            "email": "code@webard.me",
+            "role": "Developer"
         }
     ],
     "require": {
-        "php": "^8.1",
-        "filament/infolists":"^3.0||3.0-stable",
+        "php": "^8.2",
+        "filament/infolists":"^3.0",
         "spatie/laravel-package-tools": "^1.14.0",
-        "illuminate/contracts": "^10.0|^11.0"
+        "illuminate/contracts": "^10.0|^11.0|^12.0"
     },
     "require-dev": {
         "laravel/pint": "^1.0",
-        "nunomaduro/collision": "^7.9",
-        "orchestra/testbench": "^8.0",
-        "pestphp/pest": "^2.0",
-        "pestphp/pest-plugin-arch": "^2.0",
-        "pestphp/pest-plugin-laravel": "^2.0"
+        "nunomaduro/collision": "^7.9|^8.0",
+        "orchestra/testbench": "^8.0|^9.0|^10.0",
+        "pestphp/pest": "^3.0",
+        "pestphp/pest-plugin-arch": "^3.0",
+        "pestphp/pest-plugin-laravel": "^3.0"
     },
     "autoload": {
         "psr-4": {
-            "Icetalker\\FilamentTableRepeatableEntry\\": "src",
-            "Icetalker\\FilamentTableRepeatableEntry\\Database\\Factories\\": "database/factories"
+            "Filamerce\\FilamentTableRepeatableEntry\\": "src",
+            "Filamerce\\FilamentTableRepeatableEntry\\Database\\Factories\\": "database/factories"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Icetalker\\FilamentTableRepeatableEntry\\Tests\\": "tests"
+            "Filamerce\\FilamentTableRepeatableEntry\\Tests\\": "tests"
         }
     },
     "scripts": {
@@ -57,10 +62,10 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Icetalker\\FilamentTableRepeatableEntry\\FilamentTableRepeatableEntryServiceProvider"
+                "Filamerce\\FilamentTableRepeatableEntry\\FilamentTableRepeatableEntryServiceProvider"
             ],
             "aliases": {
-                "FilamentTableRepeatableEntry": "Icetalker\\FilamentTableRepeatableEntry\\Facades\\FilamentTableRepeatableEntry"
+                "FilamentTableRepeatableEntry": "Filamerce\\FilamentTableRepeatableEntry\\Facades\\FilamentTableRepeatableEntry"
             }
         }
     },

@@ -1,6 +1,6 @@
 <?php
 
-// config for Icetalker/FilamentTableRepeatableEntry
+// config for Filamerce/FilamentTableRepeatableEntry
 return [
 
 ];
