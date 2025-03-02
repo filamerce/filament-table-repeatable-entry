@@ -1,6 +1,6 @@
 <?php
 
-namespace Icetalker\FilamentTableRepeatableEntry\Infolists\Components;
+namespace Filamerce\FilamentTableRepeatableEntry\Infolists\Components;
 
 use Filament\Infolists\Components\RepeatableEntry;
 
